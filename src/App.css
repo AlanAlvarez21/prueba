@@ -30,8 +30,8 @@ table, th, td {
 th,
 td {
   padding: 10px;
-  text-align: center; 
-  vertical-align: middle;
+  text-align: center; /* Centra el texto horizontalmente en las celdas */
+  vertical-align: middle; /* Centra el texto verticalmente en las celdas */
   color: white;
 }
 
