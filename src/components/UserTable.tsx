@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../App.css';
 import { fetchData, sortUsers, toggleRowColors } from '../utils'; 
-import { User } from '../types/userTypes';
+import { User } from '../types/user';
 
 const UserTable = () => {
   const [users, setUsers] = useState<User[]>([]);
@@ -10,7 +10,7 @@ const UserTable = () => {
   const [searchText, setSearchText] = useState('');
   const [rowColors, setRowColors] = useState<string[]>([]);
   const [sortBy, setSortBy] = useState<string | null>(null);
-  const [sortByCountry, setSortByCountry] = useState(false); // Nuevo estado
+  const [sortByCountry, setSortByCountry] = useState(false);
 
   useEffect(() => {
     const fetchDataAndInitialize = async () => {

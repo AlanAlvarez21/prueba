@@ -1,4 +1,4 @@
-import { User } from '../types/userTypes';
+import { User } from '../types/user';
 import { fetchData, sortUsers, toggleRowColors } from './index';
 
 describe('fetchData', () => {

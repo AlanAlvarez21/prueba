@@ -1,4 +1,4 @@
-import { User } from '../types/userTypes';
+import { User } from '../types/user';
 
 export const fetchData = async () => {
     try {
